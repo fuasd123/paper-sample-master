@@ -1,0 +1,11 @@
+name: $pluginName
+main: $pluginMain
+api-version: '1.16'
+version: $version
+libraries:
+  - io.github.monun:tap:4.0.0-RC
+  - io.github.monun:kommand:1.2.1
+commands:
+  test:
+    usage: "L"
+    description: "Test"
